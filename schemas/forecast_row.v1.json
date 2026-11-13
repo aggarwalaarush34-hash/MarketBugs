@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "marketdebug/forecast_row.v1",
+  "title": "One MarketBugs bug with cached Gemma 4 E4B forecasts per note subset",
+  "type": "object",
+  "required": ["id", "repo", "gold", "forecasts"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^mb-[a-z0-9-]+-[0-9]{4}$"},
+    "repo": {"type": "string"},
+    "stratum": {"type": ["string", "null"], "enum": ["direct", "near", "far", null]},
+    "gold": {
+      "description": "Indices (0-19) of candidates that are gold functions; empty = retrieval miss",
+      "type": "array", "items": {"type": "integer", "minimum": 0, "maximum": 19}, "uniqueItems": true
+    },
+    "forecasts": {
+      "description": "Bitmask over (trace, graph, spec, static, semantic) -> distribution over candidates",
+      "type": "object",
+      "propertyNames": {"pattern": "^([0-9]|[12][0-9]|3[01])$"},
+      "required": ["0", "1", "2", "4", "8", "16", "31"],
+      "additionalProperties": {
+        "type": "array", "minItems": 2, "maxItems": 20, "items": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

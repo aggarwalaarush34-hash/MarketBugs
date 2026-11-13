@@ -1,0 +1,31 @@
+{
+ "source": "MarketBugs (github.com/raunak2007/marketbugs)",
+ "files": {
+  "artifacts/runs/dev120/test_informed/values_inf.jsonl": "61a82886c664ead92ae6466cf031ca95219e5bef7487c9487229939d7a2b071d",
+  "artifacts/runs/dev120/test_informed/candidates_inf.jsonl": "cc39246d82f75a64ac9add47fd9360434e67fc4489556f684baef7ff5d97d66e",
+  "data/marketbugs/dev/cachetools.jsonl": "b3e382b325cff08e7bd27c1479c32d34c1f93065cc727f3c2fbe3f7760637337",
+  "data/marketbugs/dev/eval_only.jsonl": "49f90f9d1dd46c7ad99748efe1d6bd2bb1473f5f2bc133f69155f43ece17e8c1",
+  "data/marketbugs/dev/intervaltree.jsonl": "12a85f16e1df130c7c7b40b4acda9ed9eab15fe897853815e6c45add1f8e35c7",
+  "data/marketbugs/dev/sortedcontainers.jsonl": "981b0c37f7fba77a1e7426c7ea98adae858ce9f77f0a5293649ee900d3e7a5bf",
+  "artifacts/runs/heldout_v1/test_informed/values_inf.jsonl": "f37dede785279964d5d40e13bba0ce04aaff69df584168ffc415e6f1413b1701",
+  "artifacts/runs/heldout_v1/test_informed/candidates_inf.jsonl": "d13a18bd69de72939a625d9b614f5c6d215404868f357c0c63ba966a544a0cec",
+  "data/marketbugs/test/attrs.jsonl": "026b8c49444ac703318d7cd262aee1d3103f38d1e3cabfebd17e38f457c0998b",
+  "data/marketbugs/test/boltons.jsonl": "018b1a30933c9f6279dbbbe8ecedb2398718796e24205d96d85608bbc0caaac5",
+  "data/marketbugs/test/dateutil.jsonl": "4d4d86dbd8280eb7b3c66123d2a5e36bdc38de9830ad0a14b22a1bf220881d8c",
+  "data/marketbugs/test/eval_only.jsonl": "be2437f28f02d6b94e5a85c1ecb9e475cfe3e294f96aa9fe18b249f26dbdb215",
+  "data/marketbugs/test/isodate.jsonl": "3b195473801c57c7e413b2f2c1abc543d8e7754b58e3ad438404f2a5d2395b42",
+  "data/marketbugs/test/more-itertools.jsonl": "25e8c257c33794e380177a000da097f7247fed766ee2bb4726d2917afcd489ef",
+  "data/marketbugs/test/tomli.jsonl": "a536f296cfb1e19d211882f8efcf12e6c569b7bdbcd65f26168bb04a1fe07197",
+  "data/marketbugs/test/toolz.jsonl": "f791a31ef734d22dadff552b844b902b9f86ee8010b1284fdce01effad2de416"
+ },
+ "dev_model_revisions": [
+  "google/gemma-4-E4B-it@4ecc2ba63bcac23ba4a767fc87025b1450f84c9c"
+ ],
+ "dev_bugs": 30,
+ "dev_output_sha256": "855f105ac106bfabc84de48eb9b53a51848f4ad3a377bbf348acd26e04713d79",
+ "test_model_revisions": [
+  "google/gemma-4-E4B-it@4ecc2ba63bcac23ba4a767fc87025b1450f84c9c"
+ ],
+ "test_bugs": 210,
+ "test_output_sha256": "dbacdbaf9cd9590e7d20f86ed86fbc023b6648f148b7c3a59aacfdb937c385e2"
+}

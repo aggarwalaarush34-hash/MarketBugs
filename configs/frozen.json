@@ -1,0 +1,42 @@
+{
+ "frozen_at_utc": "2026-11-12T23:44:01+00:00",
+ "config": {
+  "b": 100,
+  "rounds": 1,
+  "per_turn_fraction": 0.0333,
+  "starting_capital": 1000.0,
+  "capital_floor": 1.0,
+  "capital_from": [
+   "trading"
+  ],
+  "info_mechanism": "auto",
+  "scoring_rule": "log",
+  "info_scale": 100.0,
+  "reveal_policy": "trade_then_reveal",
+  "condition_on_public": false,
+  "open_at": "uniform",
+  "copycat_of": null,
+  "seed": 0
+ },
+ "selection": {
+  "objective": "dev gold NLL",
+  "dev": {
+   "n": 30,
+   "n_gold_in_pool": 28,
+   "top1": 0.7333333333333333,
+   "top3": 0.8333333333333334,
+   "top5": 0.9,
+   "mrr": 0.7948611111111111,
+   "nll": 0.9145678323808187,
+   "brier": 0.3406709573712945,
+   "ece": 0.17456192410982196,
+   "mean_conf": 0.7011067483002156
+  },
+  "n_trials": 90
+ },
+ "data_sha256": {
+  "dev": "855f105ac106bfabc84de48eb9b53a51848f4ad3a377bbf348acd26e04713d79",
+  "test": "dbacdbaf9cd9590e7d20f86ed86fbc023b6648f148b7c3a59aacfdb937c385e2"
+ },
+ "code_sha256": "5fa3864e3d19912edf9e4016a12bfd16f5e838e3ac5aeaa0eda97344e33bea97"
+}

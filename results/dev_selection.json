@@ -1,0 +1,2940 @@
+{
+ "objective": "dev gold NLL",
+ "grid": {
+  "b": [
+   10,
+   25,
+   50,
+   100,
+   200
+  ],
+  "per_turn_fraction": [
+   0.0333,
+   0.0667,
+   0.15
+  ],
+  "rounds": [
+   1,
+   3,
+   5
+  ],
+  "open_at": [
+   "no_notes",
+   "uniform"
+  ]
+ },
+ "trials": [
+  {
+   "config": {
+    "b": 10,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.4835110609700026,
+    "brier": 0.5407072367817298,
+    "ece": 0.32356379637324356,
+    "mean_conf": 0.9616900980891984
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.4876754597174837,
+    "brier": 0.5414281135767751,
+    "ece": 0.32360734961101734,
+    "mean_conf": 0.9617336513269721
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7266666666666667,
+    "nll": 1.7772845705013194,
+    "brier": 0.6226167732515353,
+    "ece": 0.3799762436484838,
+    "mean_conf": 0.9193626512537098
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7266666666666667,
+    "nll": 1.7854796093132477,
+    "brier": 0.6249409690873161,
+    "ece": 0.3805201264444444,
+    "mean_conf": 0.9197625558068742
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7755555555555556,
+    "nll": 1.3242248375281267,
+    "brier": 0.48487081263568804,
+    "ece": 0.2821601915107233,
+    "mean_conf": 0.9330225892652603
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7755555555555556,
+    "nll": 1.3246275426958178,
+    "brier": 0.4851168211126253,
+    "ece": 0.2816365990691976,
+    "mean_conf": 0.9324989968237347
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7773809523809524,
+    "nll": 1.5352191174004906,
+    "brier": 0.5505254448145855,
+    "ece": 0.32735080331278316,
+    "mean_conf": 0.965477105028738
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7773809523809524,
+    "nll": 1.5323412353936396,
+    "brier": 0.55041096381549,
+    "ece": 0.3273045091967766,
+    "mean_conf": 0.9654308109127315
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.5666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7101587301587301,
+    "nll": 1.8721609668123587,
+    "brier": 0.6382787097990504,
+    "ece": 0.35673414580382756,
+    "mean_conf": 0.9234008124704942
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.5666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7101587301587301,
+    "nll": 1.8732102305347884,
+    "brier": 0.6393510113921553,
+    "ece": 0.3572079583818847,
+    "mean_conf": 0.9238746250485513
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7607142857142858,
+    "nll": 1.3994064895449028,
+    "brier": 0.5060621927617882,
+    "ece": 0.31694598589172496,
+    "mean_conf": 0.9344750503129285
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7607142857142858,
+    "nll": 1.3925206804955186,
+    "brier": 0.5056189864084515,
+    "ece": 0.3169037310298401,
+    "mean_conf": 0.9344327954510436
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7773809523809524,
+    "nll": 1.5414104721497581,
+    "brier": 0.550693376104585,
+    "ece": 0.3274152768060531,
+    "mean_conf": 0.9655415785220078
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7773809523809524,
+    "nll": 1.5414097774402005,
+    "brier": 0.5506933758713134,
+    "ece": 0.32741592514497386,
+    "mean_conf": 0.9655422268609287
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.5666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7101587301587301,
+    "nll": 1.8732099373282556,
+    "brier": 0.6393510116218616,
+    "ece": 0.3572082320911776,
+    "mean_conf": 0.9238748987578442
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.5666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7101587301587301,
+    "nll": 1.8732093557743783,
+    "brier": 0.6393510113907663,
+    "ece": 0.35720877481905966,
+    "mean_conf": 0.9238754414857264
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7607142857142858,
+    "nll": 1.447510357701362,
+    "brier": 0.5075557128911314,
+    "ece": 0.31761634296808766,
+    "mean_conf": 0.9351454073892914
+   }
+  },
+  {
+   "config": {
+    "b": 10,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7607142857142858,
+    "nll": 1.4475095152239081,
+    "brier": 0.5075557126552249,
+    "ece": 0.3176171292226377,
+    "mean_conf": 0.9351461936438414
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7672222222222221,
+    "nll": 1.325348628894496,
+    "brier": 0.48635355166685335,
+    "ece": 0.31612583786159487,
+    "mean_conf": 0.9233444859629497
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7672222222222221,
+    "nll": 1.147966984214093,
+    "brier": 0.39981181755644096,
+    "ece": 0.23352101502401346,
+    "mean_conf": 0.9001876816906801
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7266666666666667,
+    "nll": 1.412279211786869,
+    "brier": 0.5108083660328261,
+    "ece": 0.29052721016625144,
+    "mean_conf": 0.8905272101662515
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8,
+    "top5": 0.9,
+    "mrr": 0.7238888888888888,
+    "nll": 1.450584420559214,
+    "brier": 0.522098578080384,
+    "ece": 0.2945835630611795,
+    "mean_conf": 0.8945835630611794
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7669607843137255,
+    "nll": 1.1961156037296958,
+    "brier": 0.41117873791232035,
+    "ece": 0.22923914224243075,
+    "mean_conf": 0.8959058089090973
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7669607843137255,
+    "nll": 1.206679176659394,
+    "brier": 0.41729936944514107,
+    "ece": 0.2322753799364497,
+    "mean_conf": 0.8989420466031163
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.4571505548220756,
+    "brier": 0.5316475277549811,
+    "ece": 0.3194997748352025,
+    "mean_conf": 0.9576260765511574
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.4671251171211632,
+    "brier": 0.5333029322937063,
+    "ece": 0.3199263519497718,
+    "mean_conf": 0.9580526536657266
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7283333333333334,
+    "nll": 1.6361972025951077,
+    "brier": 0.5948371461695066,
+    "ece": 0.3710024248961975,
+    "mean_conf": 0.9108082062884022
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7266666666666667,
+    "nll": 1.699814161927503,
+    "brier": 0.6034223910624386,
+    "ece": 0.37356752827196266,
+    "mean_conf": 0.9129839897982269
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7644444444444445,
+    "nll": 1.2906228871377465,
+    "brier": 0.4630872119781935,
+    "ece": 0.2576335994842095,
+    "mean_conf": 0.9243002661508761
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7644444444444445,
+    "nll": 1.2998803360745212,
+    "brier": 0.4658511261866961,
+    "ece": 0.27064541242181916,
+    "mean_conf": 0.9249137245152516
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7773809523809524,
+    "nll": 1.5311657007681883,
+    "brier": 0.5503544584168555,
+    "ece": 0.32728055382486626,
+    "mean_conf": 0.965406855540821
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7718253968253969,
+    "nll": 1.5252910314562165,
+    "brier": 0.5499423813471814,
+    "ece": 0.3270974698140574,
+    "mean_conf": 0.9652237715300122
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.5666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7101587301587301,
+    "nll": 1.8513735985276398,
+    "brier": 0.6323620402314283,
+    "ece": 0.35469028588292983,
+    "mean_conf": 0.9213569525495965
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.5666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7101587301587301,
+    "nll": 1.8732093696523837,
+    "brier": 0.6393510113543137,
+    "ece": 0.3572087618577854,
+    "mean_conf": 0.9238754285244521
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7607142857142858,
+    "nll": 1.3546063911276292,
+    "brier": 0.5004269670212811,
+    "ece": 0.3189407054850929,
+    "mean_conf": 0.9284478806759358
+   }
+  },
+  {
+   "config": {
+    "b": 25,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8666666666666667,
+    "top5": 0.9,
+    "mrr": 0.7607142857142858,
+    "nll": 1.3477364379552312,
+    "brier": 0.49844628665515917,
+    "ece": 0.3114587551832103,
+    "mean_conf": 0.9289878196044139
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7487499999999999,
+    "nll": 1.2274106877286042,
+    "brier": 0.42247517839614585,
+    "ece": 0.25909670787543854,
+    "mean_conf": 0.8851042861976282
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7948611111111111,
+    "nll": 0.9171832957833468,
+    "brier": 0.32596981751157034,
+    "ece": 0.11932295898480215,
+    "mean_conf": 0.8284128587917299
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7431944444444445,
+    "nll": 1.2731782947651307,
+    "brier": 0.43428123510663413,
+    "ece": 0.2692770189819598,
+    "mean_conf": 0.8589507284078038
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7431944444444445,
+    "nll": 1.2901251449219273,
+    "brier": 0.43299423311801755,
+    "ece": 0.26258402582925,
+    "mean_conf": 0.8609347961871611
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7670833333333333,
+    "nll": 1.1514283398283378,
+    "brier": 0.36955263488947415,
+    "ece": 0.1997695549687413,
+    "mean_conf": 0.8595523385172197
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.78375,
+    "nll": 1.1542520998235228,
+    "brier": 0.3733327251129505,
+    "ece": 0.24683916350933968,
+    "mean_conf": 0.8632760623191016
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7672222222222221,
+    "nll": 1.334514290872996,
+    "brier": 0.4889262329550281,
+    "ece": 0.3171890722432852,
+    "mean_conf": 0.9245365851977834
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7672222222222221,
+    "nll": 1.2130620031675048,
+    "brier": 0.4305797490102004,
+    "ece": 0.23980002173555776,
+    "mean_conf": 0.9064666884022244
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7265277777777778,
+    "nll": 1.3978199441709622,
+    "brier": 0.5044989477488675,
+    "ece": 0.2903308856515405,
+    "mean_conf": 0.8903308856515405
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8,
+    "top5": 0.9,
+    "mrr": 0.72375,
+    "nll": 1.4670275144209906,
+    "brier": 0.5243587268303964,
+    "ece": 0.29679186599553875,
+    "mean_conf": 0.8967918659955387
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7615277777777778,
+    "nll": 1.1953259230590632,
+    "brier": 0.4054370883582248,
+    "ece": 0.23498868562978337,
+    "mean_conf": 0.8858510833843204
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7615277777777778,
+    "nll": 1.2131585785977863,
+    "brier": 0.4157380670067528,
+    "ece": 0.22513463194699895,
+    "mean_conf": 0.8918012986136656
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.472946014070962,
+    "brier": 0.5374666725207397,
+    "ece": 0.32152511722382227,
+    "mean_conf": 0.959651418939777
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.4906012673261226,
+    "brier": 0.539745210941971,
+    "ece": 0.3222340072659791,
+    "mean_conf": 0.9603603089819338
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7283333333333334,
+    "nll": 1.5935544478271184,
+    "brier": 0.5729013598629675,
+    "ece": 0.3639939141914082,
+    "mean_conf": 0.906047797895675
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7266666666666667,
+    "nll": 1.6918556839208954,
+    "brier": 0.5917240015828814,
+    "ece": 0.36955038012006247,
+    "mean_conf": 0.9106235097937477
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7631944444444444,
+    "nll": 1.2663364682029496,
+    "brier": 0.44010288716547985,
+    "ece": 0.238167880799124,
+    "mean_conf": 0.9048345474657907
+   }
+  },
+  {
+   "config": {
+    "b": 50,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7631944444444444,
+    "nll": 1.2992549024466207,
+    "brier": 0.4580012779882609,
+    "ece": 0.25535482078838,
+    "mean_conf": 0.9119095783082908
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.737936507936508,
+    "nll": 1.2107444117680222,
+    "brier": 0.41086776413072784,
+    "ece": 0.24678738451976795,
+    "mean_conf": 0.8628007166839399
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7948611111111111,
+    "nll": 0.9145678323808187,
+    "brier": 0.3406709573712945,
+    "ece": 0.17456192410982196,
+    "mean_conf": 0.7011067483002156
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7598611111111111,
+    "nll": 1.2250008770798464,
+    "brier": 0.38374105874877884,
+    "ece": 0.1923055127905044,
+    "mean_conf": 0.8434982170862392
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7765277777777778,
+    "nll": 1.1421207443999544,
+    "brier": 0.3478024273623353,
+    "ece": 0.18636256283367064,
+    "mean_conf": 0.8597737054137552
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7598611111111111,
+    "nll": 1.1736010871093228,
+    "brier": 0.35671171345847946,
+    "ece": 0.20803494232465258,
+    "mean_conf": 0.8395125379585399
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7670833333333333,
+    "nll": 1.1203240784241837,
+    "brier": 0.34640197261881456,
+    "ece": 0.2178088814026729,
+    "mean_conf": 0.858006437197809
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7487499999999999,
+    "nll": 1.2373590124559968,
+    "brier": 0.4319291991899483,
+    "ece": 0.26288427167158435,
+    "mean_conf": 0.8894940886309857
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7948611111111111,
+    "nll": 0.9971581398025037,
+    "brier": 0.34197386820966474,
+    "ece": 0.18128168525040553,
+    "mean_conf": 0.8460088086897938
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7431944444444445,
+    "nll": 1.2813913700885315,
+    "brier": 0.439315464962883,
+    "ece": 0.2643925463772625,
+    "mean_conf": 0.8622084166278084
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7431944444444445,
+    "nll": 1.3215480588816424,
+    "brier": 0.44426070245372123,
+    "ece": 0.27986620706963183,
+    "mean_conf": 0.8705473295311532
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7670833333333333,
+    "nll": 1.1593494841291914,
+    "brier": 0.370684407775241,
+    "ece": 0.19685080974154995,
+    "mean_conf": 0.8565652197975762
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7615277777777778,
+    "nll": 1.1612474950279983,
+    "brier": 0.37418897360542197,
+    "ece": 0.22243091786258912,
+    "mean_conf": 0.8625574415556659
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7672222222222221,
+    "nll": 1.370827329612423,
+    "brier": 0.5004447712979159,
+    "ece": 0.3227292648082568,
+    "mean_conf": 0.9317572112857881
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7688888888888888,
+    "nll": 1.3770811439030979,
+    "brier": 0.5001631811916529,
+    "ece": 0.29577817390896594,
+    "mean_conf": 0.9339044756249207
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7265277777777778,
+    "nll": 1.3832144247567444,
+    "brier": 0.49513545745377535,
+    "ece": 0.28988820288088735,
+    "mean_conf": 0.8898882028808873
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6,
+    "top3": 0.8,
+    "top5": 0.9,
+    "mrr": 0.7220833333333334,
+    "nll": 1.5140131524466596,
+    "brier": 0.5263646357498976,
+    "ece": 0.2989034162330332,
+    "mean_conf": 0.8989034162330332
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7615277777777778,
+    "nll": 1.1937999128686603,
+    "brier": 0.3937626618969815,
+    "ece": 0.20158165590895108,
+    "mean_conf": 0.8682483225756177
+   }
+  },
+  {
+   "config": {
+    "b": 100,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7615277777777778,
+    "nll": 1.2152427050863555,
+    "brier": 0.4022077929263155,
+    "ece": 0.21074026909315274,
+    "mean_conf": 0.8774069357598194
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7381196581196581,
+    "nll": 1.262552900224747,
+    "brier": 0.44230404062534984,
+    "ece": 0.2130833597735935,
+    "mean_conf": 0.8464166931069268
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 1,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.8115277777777778,
+    "nll": 1.0779523243687241,
+    "brier": 0.41912297102000146,
+    "ece": 0.3167932146836525,
+    "mean_conf": 0.5471927538921784
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7655555555555555,
+    "nll": 1.196932073700178,
+    "brier": 0.37091064579650196,
+    "ece": 0.20029516439769665,
+    "mean_conf": 0.8480990746968595
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 3,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.8098611111111111,
+    "nll": 1.026207271824272,
+    "brier": 0.32580915350661976,
+    "ece": 0.15789224862868328,
+    "mean_conf": 0.8212728294310889
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7765277777777778,
+    "nll": 1.1780866670110246,
+    "brier": 0.3567587309788494,
+    "ece": 0.21491716176269057,
+    "mean_conf": 0.8362930376094939
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 5,
+    "per_turn_fraction": 0.0333,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.8004166666666667,
+    "nll": 1.0530513295417596,
+    "brier": 0.33527134598160385,
+    "ece": 0.1537273507811751,
+    "mean_conf": 0.8527431353052453
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7434920634920634,
+    "nll": 1.2194532532738507,
+    "brier": 0.4147475222638296,
+    "ece": 0.2514488231328792,
+    "mean_conf": 0.8679546510599565
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 1,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7666666666666667,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.8115277777777778,
+    "nll": 0.9406284134547442,
+    "brier": 0.33851116425307604,
+    "ece": 0.20760299671567242,
+    "mean_conf": 0.759027159237461
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7598611111111111,
+    "nll": 1.2329400123215652,
+    "brier": 0.3939751106621798,
+    "ece": 0.19508347300086315,
+    "mean_conf": 0.8440461712579286
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 3,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7765277777777778,
+    "nll": 1.1770993300055252,
+    "brier": 0.3736587090324487,
+    "ece": 0.1875650305540154,
+    "mean_conf": 0.8556808293208474
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7820833333333332,
+    "nll": 1.1569031113907988,
+    "brier": 0.36202063848775073,
+    "ece": 0.19817634414095806,
+    "mean_conf": 0.838587469336482
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 5,
+    "per_turn_fraction": 0.0667,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7670833333333333,
+    "nll": 1.1256939333697737,
+    "brier": 0.35289683823565193,
+    "ece": 0.23132167912239748,
+    "mean_conf": 0.8612991247509579
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7487499999999999,
+    "nll": 1.283105653762902,
+    "brier": 0.45890649389818206,
+    "ece": 0.26823242488838345,
+    "mean_conf": 0.9015657582217168
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 1,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.7,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7822222222222222,
+    "nll": 1.166609448714907,
+    "brier": 0.41226049238840706,
+    "ece": 0.20484907961191706,
+    "mean_conf": 0.8712979072236162
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6333333333333333,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7431944444444445,
+    "nll": 1.302382227097676,
+    "brier": 0.4496668668705411,
+    "ece": 0.2421782095116224,
+    "mean_conf": 0.8708322126828653
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 3,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8,
+    "top5": 0.9,
+    "mrr": 0.7570833333333333,
+    "nll": 1.3817791092499407,
+    "brier": 0.4579794416835656,
+    "ece": 0.26998457388002256,
+    "mean_conf": 0.8805371225705653
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "no_notes",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7598611111111111,
+    "nll": 1.1719226705163215,
+    "brier": 0.3721124318216675,
+    "ece": 0.2030758628156284,
+    "mean_conf": 0.8513238139950835
+   }
+  },
+  {
+   "config": {
+    "b": 200,
+    "rounds": 5,
+    "per_turn_fraction": 0.15,
+    "starting_capital": 1000.0,
+    "capital_floor": 1.0,
+    "capital_from": [
+     "trading"
+    ],
+    "info_mechanism": "auto",
+    "scoring_rule": "log",
+    "info_scale": 100.0,
+    "reveal_policy": "trade_then_reveal",
+    "condition_on_public": false,
+    "open_at": "uniform",
+    "copycat_of": null,
+    "seed": 0
+   },
+   "dev": {
+    "n": 30,
+    "n_gold_in_pool": 28,
+    "top1": 0.6666666666666666,
+    "top3": 0.8333333333333334,
+    "top5": 0.9,
+    "mrr": 0.7615277777777778,
+    "nll": 1.174665791231302,
+    "brier": 0.3748611150837332,
+    "ece": 0.2247215342063347,
+    "mean_conf": 0.8650866218348682
+   }
+  }
+ ],
+ "selected": {
+  "config": {
+   "b": 100,
+   "rounds": 1,
+   "per_turn_fraction": 0.0333,
+   "starting_capital": 1000.0,
+   "capital_floor": 1.0,
+   "capital_from": [
+    "trading"
+   ],
+   "info_mechanism": "auto",
+   "scoring_rule": "log",
+   "info_scale": 100.0,
+   "reveal_policy": "trade_then_reveal",
+   "condition_on_public": false,
+   "open_at": "uniform",
+   "copycat_of": null,
+   "seed": 0
+  },
+  "dev": {
+   "n": 30,
+   "n_gold_in_pool": 28,
+   "top1": 0.7333333333333333,
+   "top3": 0.8333333333333334,
+   "top5": 0.9,
+   "mrr": 0.7948611111111111,
+   "nll": 0.9145678323808187,
+   "brier": 0.3406709573712945,
+   "ece": 0.17456192410982196,
+   "mean_conf": 0.7011067483002156
+  }
+ }
+}

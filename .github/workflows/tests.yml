@@ -1,0 +1,13 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --extra live
+      - run: uv run python -m pytest -q
+      - run: uv run python -m marketdebug validate
+      - name: frozen contract still holds
+        run: uv run python -c "from marketdebug import freeze; freeze.check(); print('frozen contract OK')"
